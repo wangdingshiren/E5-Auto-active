@@ -11,7 +11,7 @@ on:
   #    - master
   schedule:
 #    - cron: '59 */1 * * *'
-    - cron: '59 */1 * * * sleep $[ ( $RANDOM % 60 ) + 1 ]m'
+    - cron: '59 */1 * * *'
   watch:
     types: [started]
    
